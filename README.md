@@ -36,4 +36,4 @@ Diplômé d'un **Master en Économie**, j'ai pivoté vers le développement web 
 
 - **LinkedIn :** [Abdoulrazack Abdillahi](https://www.linkedin.com/in/abdoulrazack-abdillahi-mahamoud/ )
 - **Fiverr :** [Mes services de développement](https://fr.fiverr.com/abdoulrazack13 )
-- **Email :** [Votre Email Ici]
+- **Email :** abdoul.abdillahi@gmail.com
