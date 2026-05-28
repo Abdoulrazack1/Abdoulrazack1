@@ -1,12 +1,12 @@
 # Salut, moi c'est Abdoulrazack ! 👋
 
-### Développeur Fullstack | Passionné par la logique et l'innovation 🚀
+### Développeur Fullstack | Passionné par la logique et l'innovation 
 
 Diplômé d'un **Master en Économie**, j'ai pivoté vers le développement web pour transformer des systèmes complexes en solutions numériques concrètes. Mon approche combine la rigueur analytique et l'expertise technique.
 
 ---
 
-### 🛠 Technologies & Outils
+###  Technologies & Outils
 
 | Secteur | Technologies |
 | :--- | :--- |
@@ -17,22 +17,22 @@ Diplômé d'un **Master en Économie**, j'ai pivoté vers le développement web 
 
 ---
 
-### 🌟 Projets Phares
+###  Projets Phares
 
-- 🚴‍♂️ **[Cycling](https://github.com/Abdoulrazack1/Cycling )** : Plateforme complète avec intégration Strava, parsing GPX et gestion de club.
-- 🧠 **[Galactic Brain MCP](https://github.com/Abdoulrazack1/galactic-brain-mcp )** : Serveur avancé pour Claude Desktop avec outils de raisonnement cognitif.
-- 🔍 **[Logic Lens](https://github.com/Abdoulrazack1/Logic-Lens )** : Outil d'analyse et de visualisation de logique complexe.
+-  **[Cycling](https://github.com/Abdoulrazack1/Cycling )** : Plateforme complète avec intégration Strava, parsing GPX et gestion de club.
+-  **[Galactic Brain MCP](https://github.com/Abdoulrazack1/galactic-brain-mcp )** : Serveur avancé pour Claude Desktop avec outils de raisonnement cognitif.
+-  **[Logic Lens](https://github.com/Abdoulrazack1/Logic-Lens )** : Outil d'analyse et de visualisation de logique complexe.
 
 ---
 
-### 📊 Statistiques GitHub
+### Statistiques GitHub
 
 ![Stats d'Abdoulrazack](https://github-readme-stats.vercel.app/api?username=Abdoulrazack1&show_icons=true&theme=tokyonight )
 ![Top Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdoulrazack1&layout=compact&theme=tokyonight )
 
 ---
 
-### 📫 Me contacter
+###  Me contacter
 
 - **LinkedIn :** [Abdoulrazack Abdillahi](https://www.linkedin.com/in/abdoulrazack-abdillahi-mahamoud/ )
 - **Fiverr :** [Mes services de développement](https://fr.fiverr.com/abdoulrazack13 )
