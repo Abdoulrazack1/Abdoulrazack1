@@ -1,0 +1,89 @@
+name: Metrics
+on:
+  # Refresh quotidien à 5h00 UTC
+  schedule:
+    - cron: "0 5 * * *"
+  # Trigger manuel depuis l'onglet Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── Carte principale ──────────────────────────────────────
+      - name: Main metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: github-metrics.svg
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Paris
+          config_padding: 0, 8px
+          template: classic
+          output_action: none
+
+      # ── Langages ────────────────────────────────────────────
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: github-metrics-langs.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
+          config_timezone: Europe/Paris
+          output_action: none
+
+      # ── Achievements ───────────────────────────────────────
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: github-metrics-achievements.svg
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
+          config_timezone: Europe/Paris
+          output_action: none
+
+      # ── Habitudes ──────────────────────────────────────────
+      - name: Habits
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: github-metrics-habits.svg
+          base: ""
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          config_timezone: Europe/Paris
+          output_action: none
+
+      # ── Commit les SVG mis à jour ───────────────────────────
+      # On commit nous-mêmes pour éviter le bug "sha wasn't supplied"
+      # de lowlighter/metrics quand il commit en mode output_action.
+      - name: Commit & push SVG
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics*.svg
+          if git diff --cached --quiet; then
+            echo "No changes in metrics SVGs."
+          else
+            git commit -m "chore: refresh metrics SVGs [skip ci]"
+            git push
+          fi
