@@ -134,38 +134,46 @@
 ## GitHub stats
 
 <p align="center">
-  <img height="170" alt="Stats" src="https://github-readme-stats.vercel.app/api?username=Abdoulrazack1&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark" />
-  <img height="170" alt="Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdoulrazack1&layout=compact&hide_border=true&theme=github_dark&langs_count=8" />
+  <img alt="Activity" src="https://github-readme-activity-graph.vercel.app/graph?username=Abdoulrazack1&theme=github-compact&hide_border=true&area=true&radius=8&color=ff6b1a&line=ff6b1a&point=ffffff" />
 </p>
 
 <p align="center">
   <img alt="Streak" src="https://streak-stats.demolab.com?user=Abdoulrazack1&hide_border=true&theme=github-dark-blue" />
 </p>
 
+<!--
+  Cartes générées chaque jour par GitHub Actions (.github/workflows/metrics.yml)
+  via lowlighter/metrics — totalement indépendant des services Vercel publics
+  (github-readme-stats / github-profile-trophy) qui sont souvent en 503/402.
+-->
+
 <p align="center">
-  <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Abdoulrazack1&theme=github-compact&hide_border=true&area=true&radius=8&color=ff6b1a&line=ff6b1a&point=ffffff" />
+  <img alt="Metrics" src="./github-metrics.svg" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Abdoulrazack1/Cycling">
-    <img alt="Cycling" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=Cycling&hide_border=true&theme=github_dark" />
-  </a>
-  <a href="https://github.com/Abdoulrazack1/Inko">
-    <img alt="Inko" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=Inko&hide_border=true&theme=github_dark" />
-  </a>
+  <img alt="Languages" src="./github-metrics-langs.svg" />
+  <img alt="Achievements" src="./github-metrics-achievements.svg" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Abdoulrazack1/galactic-brain-mcp">
-    <img alt="Galactic Brain MCP" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=galactic-brain-mcp&hide_border=true&theme=github_dark" />
-  </a>
-  <a href="https://github.com/Abdoulrazack1/Js-Ranker">
-    <img alt="Js-Ranker" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=Js-Ranker&hide_border=true&theme=github_dark" />
-  </a>
+  <img alt="Habits" src="./github-metrics-habits.svg" />
+</p>
+
+### Featured repos
+
+<p align="center">
+  <a href="https://github.com/Abdoulrazack1/Cycling"><img alt="Cycling stars" src="https://img.shields.io/github/stars/Abdoulrazack1/Cycling?style=for-the-badge&label=Cycling&color=ff6b1a&logo=github"></a>
+  <a href="https://github.com/Abdoulrazack1/Inko"><img alt="Inko stars" src="https://img.shields.io/github/stars/Abdoulrazack1/Inko?style=for-the-badge&label=Inko&color=ff6b1a&logo=github"></a>
+  <a href="https://github.com/Abdoulrazack1/galactic-brain-mcp"><img alt="GBrain stars" src="https://img.shields.io/github/stars/Abdoulrazack1/galactic-brain-mcp?style=for-the-badge&label=Galactic+Brain&color=ff6b1a&logo=github"></a>
+  <a href="https://github.com/Abdoulrazack1/Js-Ranker"><img alt="Js-Ranker stars" src="https://img.shields.io/github/stars/Abdoulrazack1/Js-Ranker?style=for-the-badge&label=Js-Ranker&color=ff6b1a&logo=github"></a>
 </p>
 
 <p align="center">
-  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=Abdoulrazack1&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" />
+  <a href="https://github.com/Abdoulrazack1/Cycling"><img alt="Cycling last commit" src="https://img.shields.io/github/last-commit/Abdoulrazack1/Cycling?style=flat-square&label=Cycling&color=2E7D32"></a>
+  <a href="https://github.com/Abdoulrazack1/Inko"><img alt="Inko last commit" src="https://img.shields.io/github/last-commit/Abdoulrazack1/Inko?style=flat-square&label=Inko&color=ff6b1a"></a>
+  <a href="https://github.com/Abdoulrazack1/galactic-brain-mcp"><img alt="GBrain last commit" src="https://img.shields.io/github/last-commit/Abdoulrazack1/galactic-brain-mcp?style=flat-square&label=Galactic+Brain&color=7C5CFF"></a>
+  <a href="https://github.com/Abdoulrazack1/Js-Ranker"><img alt="Js-Ranker last commit" src="https://img.shields.io/github/last-commit/Abdoulrazack1/Js-Ranker?style=flat-square&label=Js-Ranker&color=FF6F00"></a>
 </p>
 
 ---
