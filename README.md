@@ -15,6 +15,12 @@
   <img alt="Status" src="https://img.shields.io/badge/Open%20to-First%20Junior%20CDI-1976D2?style=flat-square">
 </p>
 
+<p align="center">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Abdoulrazack1&style=flat-square&color=ff6b1a&label=Profile+views" />
+  <img alt="Followers" src="https://img.shields.io/github/followers/Abdoulrazack1?style=flat-square&color=ff6b1a&logo=github&label=Followers" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/Abdoulrazack1?style=flat-square&color=ff6b1a&logo=github&label=Total%20stars" />
+</p>
+
 ---
 
 ## About me
@@ -54,6 +60,14 @@
 > **Highlights** · architecture modulaire · 100+ tools exposés · auto‑sync via hooks Claude Code · vault Obsidian git‑versionné
 >
 > → [github.com/Abdoulrazack1/galactic-brain-mcp](https://github.com/Abdoulrazack1/galactic-brain-mcp)
+
+### Inko — Lecteur de mangas PWA
+> Plateforme de lecture manga complète : catalogue **MangaDex** (83 000+ séries) en proxy backend, lecteur intégré (page/scroll/double), bibliothèque personnelle synchronisée (favoris, progression, listes), authentification **JWT** + **bcrypt**, **PWA installable** avec service worker, prêt **Capacitor** pour Android/iOS.
+>
+> **Stack** · Node.js · Express · MySQL (9 tables) · JWT · Bcrypt · Axios · Vanilla JS · Service Worker · Capacitor
+> **Highlights** · 28 endpoints REST · proxy MangaDex avec cache TTL · progression auto‑sauvée par chapitre · stats heatmap/timeline dynamiques · mode hors‑ligne via SW · démarrage en `npm run init-db && npm start`
+>
+> → [github.com/Abdoulrazack1/Inko](https://github.com/Abdoulrazack1/Inko)
 
 ### Kinka — E‑commerce manga
 > Boutique e‑commerce de mangas (projet DWWM) : maquette **Figma**, intégration responsive, filtres dynamiques multi‑critères, recherche instantanée, **panier hybride** (localStorage invité / MySQL utilisateur connecté), tunnel d'achat complet.
@@ -120,12 +134,38 @@
 ## GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdoulrazack1&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdoulrazack1&layout=compact&hide_border=true&theme=github_dark&langs_count=8" />
+  <img height="170" alt="Stats" src="https://github-readme-stats.vercel.app/api?username=Abdoulrazack1&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark" />
+  <img height="170" alt="Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdoulrazack1&layout=compact&hide_border=true&theme=github_dark&langs_count=8" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abdoulrazack1&hide_border=true&theme=github-dark-blue" />
+  <img alt="Streak" src="https://streak-stats.demolab.com?user=Abdoulrazack1&hide_border=true&theme=github-dark-blue" />
+</p>
+
+<p align="center">
+  <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Abdoulrazack1&theme=github-compact&hide_border=true&area=true&radius=8&color=ff6b1a&line=ff6b1a&point=ffffff" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Abdoulrazack1/Cycling">
+    <img alt="Cycling" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=Cycling&hide_border=true&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Abdoulrazack1/Inko">
+    <img alt="Inko" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=Inko&hide_border=true&theme=github_dark" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Abdoulrazack1/galactic-brain-mcp">
+    <img alt="Galactic Brain MCP" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=galactic-brain-mcp&hide_border=true&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Abdoulrazack1/Js-Ranker">
+    <img alt="Js-Ranker" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdoulrazack1&repo=Js-Ranker&hide_border=true&theme=github_dark" />
+  </a>
+</p>
+
+<p align="center">
+  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=Abdoulrazack1&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" />
 </p>
 
 ---
