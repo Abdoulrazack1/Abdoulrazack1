@@ -54,12 +54,20 @@
 > → [github.com/Abdoulrazack1/Js-Ranker](https://github.com/Abdoulrazack1/Js-Ranker)
 
 ### Galactic Brain MCP — AI tooling for Claude Desktop
-> Serveur **Model Context Protocol** open‑source qui expose 100+ outils de mémoire et de raisonnement à Claude Desktop / Claude Code. Indexation de notes, recherche **BM25**, scoring adaptatif, audit de duplicats, raisonnement séquentiel.
+> Serveur **Model Context Protocol** open‑source qui expose **114 outils** de mémoire et de raisonnement à Claude Desktop / Claude Code. Indexation de notes, recherche **BM25**, scoring adaptatif, audit de duplicats, raisonnement séquentiel, auto‑sync hooks.
 >
 > **Stack** · Node.js · TypeScript · @modelcontextprotocol/sdk · Zod · BM25
-> **Highlights** · architecture modulaire · 100+ tools exposés · auto‑sync via hooks Claude Code · vault Obsidian git‑versionné
+> **Highlights** · 4 couches (v5→v14.1) · 114 tools · `brain_brief` / `brain_advise` / `brain_chain` / `brain_critic` · auto‑sync via hooks Claude Code · vault Obsidian git‑versionné
 >
 > → [github.com/Abdoulrazack1/galactic-brain-mcp](https://github.com/Abdoulrazack1/galactic-brain-mcp)
+
+### Logic-Lens — AI that decodes JavaScript logic
+> Transformer Encoder **TensorFlow.js** qui extrait la formule mathématique ou l'invariant logique sous-jacent à n'importe quelle fonction JS. Pipeline : mutations AST (`acorn`) → dataset ~3000 paires → modèle.
+>
+> **Stack** · Node.js · TensorFlow.js · Acorn (AST) · Express
+> **Highlights** · pipeline reproductible (`npm run generate` → `npm run train` → `node index.js`) · interface web · bridge inter-moteurs
+>
+> → [github.com/Abdoulrazack1/Logic-Lens](https://github.com/Abdoulrazack1/Logic-Lens)
 
 ### Inko — Lecteur de mangas PWA
 > Plateforme de lecture manga complète : catalogue **MangaDex** (83 000+ séries) en proxy backend, lecteur intégré (page/scroll/double), bibliothèque personnelle synchronisée (favoris, progression, listes), authentification **JWT** + **bcrypt**, **PWA installable** avec service worker, prêt **Capacitor** pour Android/iOS.
