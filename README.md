@@ -141,25 +141,6 @@
   <img alt="Streak" src="https://streak-stats.demolab.com?user=Abdoulrazack1&hide_border=true&theme=github-dark-blue" />
 </p>
 
-<!--
-  Cartes générées chaque jour par GitHub Actions (.github/workflows/metrics.yml)
-  via lowlighter/metrics — totalement indépendant des services Vercel publics
-  (github-readme-stats / github-profile-trophy) qui sont souvent en 503/402.
--->
-
-<p align="center">
-  <img alt="Metrics" src="./github-metrics.svg" />
-</p>
-
-<p align="center">
-  <img alt="Languages" src="./github-metrics-langs.svg" />
-  <img alt="Achievements" src="./github-metrics-achievements.svg" />
-</p>
-
-<p align="center">
-  <img alt="Habits" src="./github-metrics-habits.svg" />
-</p>
-
 ### Featured repos
 
 <p align="center">
