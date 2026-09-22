@@ -5,11 +5,7 @@
 </p>
 
 <p align="center">
-  🌱 <b>En recherche d'alternance (18 mois)</b> — Concepteur Développeur d'Applications, spécialisation <b>éco-conception</b>
-</p>
-
-<p align="center">
-  <i>Également ouvert à toute opportunité — stage, CDD, CDI junior, freelance</i>
+  <i>Ouvert à toute opportunité — stage, CDD, CDI junior, freelance</i>
 </p>
 
 <p align="center">
