@@ -205,14 +205,14 @@ def now():
   {text_lines(32, 268, wrap("L’économie d’abord, le code ensuite. Avant d’écrire une ligne, je me demande à quoi l’outil va servir, et à qui.", 18, 430), 18, 27, CREAM2)}
 """)
     t2 = tile(516, 0, 372, 192, LAV, f"""
-  {mark(262, 90, 120)}
+  {mark(268, 94, 84)}
   <text x="28" y="54" font-size="25" font-weight="750" fill="{INK}" letter-spacing="-.6">De l’économie au code</text>
-  {text_lines(28, 88, wrap("Licence et master à Lille, puis titre Développeur Web et Web Mobile.", 16, 230), 16, 23, "rgba(20,21,43,.78)")}
+  {text_lines(28, 88, wrap("Licence et master à Lille, puis titre Développeur Web et Web Mobile.", 16, 200), 16, 23, "rgba(20,21,43,.78)")}
 """, False)
     t3 = tile(904, 0, 376, 192, "#10261f", f"""
   <text x="28" y="54" font-size="25" font-weight="750" fill="{CREAM}" letter-spacing="-.6">En ce moment</text>
   {text_lines(28, 88, wrap("Je refais le site de Bobo et Gamelles, du front-end au déploiement, en bénévole.", 16, 320), 16, 23, CREAM2)}
-  <g transform="translate(28 140)"><rect width="88" height="30" rx="9" fill="rgba(255,255,255,.08)"/><text x="16" y="20" font-size="13" font-weight="700" fill="{CREAM}">refonte</text>
+  <g transform="translate(28 150)"><rect width="88" height="30" rx="9" fill="rgba(255,255,255,.08)"/><text x="16" y="20" font-size="13" font-weight="700" fill="{CREAM}">refonte</text>
   <rect x="96" width="34" height="2" y="14" fill="rgba(255,255,255,.25)"/><rect x="138" width="44" height="30" rx="9" fill="{MINT}"/><text x="152" y="20" font-size="13" font-weight="700" fill="#0c2a21">CI</text>
   <rect x="190" width="34" height="2" y="14" fill="rgba(255,255,255,.25)"/><rect x="232" width="84" height="30" rx="9" fill="rgba(255,255,255,.08)"/><text x="248" y="20" font-size="13" font-weight="700" fill="{CREAM}">en ligne</text></g>
 """)
